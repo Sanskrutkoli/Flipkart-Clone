@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  min-height: calc(100vh - 57px - 10vh);
+}
+header {
+  background-color: #5cd2e6;
+}
+nav ul {
+  display: flex;
+  padding: 0 23px;
+  list-style: none;
+  align-items: center;
+  gap: 22px;
+  height: 57px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.inputbar {
+  height: 24px;
+  width: 26em;
+}
+.btn {
+  margin: 12px;
+  height: 24px;
+  width: 79px;
+  cursor: pointer;
+  border: black;
+}
+
+.search input{
+  width: 30vw;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
+.slider {
+  margin: 12px auto;
+  width: 52vw;
+}
+.card{
+  max-width: 91vw;
+  margin: auto;
+}
+
+.card h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 12px 63px;
+}
+.my2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-item{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 98px;
+}
+.card-item img{
+  cursor: pointer;
+
+}
+.centre {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-family: "Montserrat", sans-serif;
+}
